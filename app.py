@@ -19,17 +19,17 @@ st.markdown("""
         font-family: 'Inter', sans-serif;
     }
     
-    /* Sidebar Menu Styling */
+    /* Sidebar Menu Styling - Bigger Fonts */
     .stRadio > label {
-        font-size: 1.2rem !important;
+        font-size: 1.5rem !important; /* Increased font size */
         font-weight: 600 !important;
-        padding-bottom: 10px;
+        padding-bottom: 15px;
     }
     .stRadio div[role='radiogroup'] > label {
-        font-size: 1.1rem !important;
-        padding: 10px 10px;
-        border-radius: 5px;
-        margin-bottom: 5px;
+        font-size: 1.3rem !important; /* Increased font size */
+        padding: 12px 15px;
+        border-radius: 8px;
+        margin-bottom: 8px;
     }
     .stRadio div[role='radiogroup'] > label:hover {
         background-color: #f0f2f6;
@@ -86,31 +86,75 @@ def load_artifacts():
         return None, None
 
 @st.cache_data
-def load_data():
+def load_data(dengue_file, awareness_file):
     try:
-        dengue_df = pd.read_csv('dengue.csv')
-        awareness_df = pd.read_csv('awareness_score.csv')
+        # Load Dengue Data
+        dengue_df = pd.read_csv(dengue_file)
+            
+        # Load Awareness Data
+        awareness_df = pd.read_csv(awareness_file)
+
         # Preprocess Dates
         dengue_df['Date'] = pd.to_datetime(dengue_df['Year'].astype(str) + '-' + dengue_df['Month No'].astype(str) + '-01')
         return dengue_df, awareness_df
-    except FileNotFoundError:
-        st.error("Data files not found.")
+    except Exception as e:
+        st.error(f"Error loading data: {e}")
         return None, None
 
 model, cdri_ref = load_artifacts()
-dengue_df, awareness_df = load_data()
 
-if model is not None and dengue_df is not None:
+# --- SESSION STATE INITIALIZATION ---
+if 'data_loaded' not in st.session_state:
+    st.session_state['data_loaded'] = False
+if 'dengue_df' not in st.session_state:
+    st.session_state['dengue_df'] = None
+if 'awareness_df' not in st.session_state:
+    st.session_state['awareness_df'] = None
+
+# --- HOME PAGE / UPLOAD LOGIC ---
+if not st.session_state['data_loaded']:
+    st.title("Welcome to DEWRS")
+    st.markdown("### Dengue Early Warning & Response System")
+    st.info("Please upload the required data files to proceed.")
     
-    # --- Sidebar Navigation ---
-    st.sidebar.title("DEWRS Navigation")
+    col_up1, col_up2 = st.columns(2)
+    with col_up1:
+        uploaded_dengue = st.file_uploader("Upload dengue.csv", type=['csv'], key="up_dengue")
+    with col_up2:
+        uploaded_awareness = st.file_uploader("Upload awareness_score.csv", type=['csv'], key="up_awareness")
     
-    # Menu Options
-    menu_options = ["Dashboard", "Historical Analysis", "Survey Insights", "Future Forecasts", "Recommendations", "Datasets"]
-    selection = st.sidebar.radio("Go to", menu_options, label_visibility="collapsed")
-    
-    st.sidebar.markdown("---")
-    st.sidebar.info("Dengue Early Warning & Response System v5.0")
+    if st.button("Load Data & Start System", type="primary"):
+        if uploaded_dengue is not None and uploaded_awareness is not None:
+            dengue_df, awareness_df = load_data(uploaded_dengue, uploaded_awareness)
+            if dengue_df is not None and awareness_df is not None:
+                st.session_state['dengue_df'] = dengue_df
+                st.session_state['awareness_df'] = awareness_df
+                st.session_state['data_loaded'] = True
+                st.rerun()
+        else:
+            st.error("Please upload both files to continue.")
+
+# --- MAIN APPLICATION (Only if Data Loaded) ---
+else:
+    dengue_df = st.session_state['dengue_df']
+    awareness_df = st.session_state['awareness_df']
+
+    # --- SIDEBAR ---
+    with st.sidebar:
+        st.image("https://cdn-icons-png.flaticon.com/512/2825/2825076.png", width=80)
+        st.title("DEWRS Navigation")
+        
+        selection = st.radio("Go to", ["Dashboard", "Historical Analysis", "Survey Insights", "Future Forecasts", "Recommendations", "Datasets"])
+        
+        st.markdown("---")
+        st.markdown("### ⚙️ Settings")
+        st.info("System Status: **Online**")
+        
+        if st.button("Reset / Upload New Data"):
+            st.session_state['data_loaded'] = False
+            st.session_state['dengue_df'] = None
+            st.session_state['awareness_df'] = None
+            st.rerun()
 
     # --- MAIN CONTENT ---
     
@@ -545,5 +589,3 @@ if model is not None and dengue_df is not None:
         </div>
     """, unsafe_allow_html=True)
 
-else:
-    st.warning("Please ensure data and model artifacts are present.")
