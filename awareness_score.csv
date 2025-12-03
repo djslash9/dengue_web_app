@@ -1,0 +1,105 @@
+timestamp,age,gender,district,education,occupation,residence,knowledge_score,attitudes_score,preventive_score,exposure_score,total_score
+9/5/2025 16:36:00,18–24,Male,Gampaha,Diploma,Student,Rented house,25.0,60.0,44.44444444444444,25.0,36.666666666666664
+9/5/2025 16:46:00,18–24,Male,Gampaha,A/L or equivalent,Student,Rented house,62.5,60.0,33.33333333333333,25.0,43.333333333333336
+9/5/2025 16:57:00,45–54,Female,Gampaha,Undergraduate degree,Government,Rented house,75.0,100.0,66.66666666666666,75.0,76.66666666666667
+9/5/2025 16:57:00,18–24,Male,Colombo,Secondary school,Student,Owned house,62.5,20.0,33.33333333333333,37.5,40.0
+9/5/2025 17:29:00,45–54,Male,Colombo,Postgraduate degree,Private,Rented house,87.5,100.0,22.22222222222222,37.5,56.666666666666664
+9/5/2025 23:52:00,45–54,Female,Gampaha,Diploma,Self-employed,Owned house,75.0,80.0,55.55555555555556,62.5,66.66666666666666
+9/6/2025 12:41:00,45–54,Female,Gampaha,Undergraduate degree,Government,Owned house,37.5,60.0,77.77777777777779,75.0,63.33333333333333
+9/6/2025 12:51:00,45–54,Female,Gampaha,Postgraduate degree,Government,Owned house,87.5,100.0,77.77777777777779,75.0,83.33333333333334
+9/6/2025 13:48:00,35–44,Female,Gampaha,Undergraduate degree,Government,Owned house,75.0,60.0,66.66666666666666,37.5,60.0
+9/6/2025 14:00:00,25–34,Female,Gampaha,Undergraduate degree,Government,Owned house,75.0,100.0,44.44444444444444,37.5,60.0
+9/6/2025 17:43:00,25–34,Female,Gampaha,Undergraduate degree,Government,Owned house,87.5,60.0,88.88888888888889,87.5,83.33333333333334
+9/6/2025 21:11:00,25–34,Female,Gampaha,Undergraduate degree,Government,Owned house,87.5,80.0,55.55555555555556,25.0,60.0
+9/6/2025 21:32:00,25–34,Female,Gampaha,Undergraduate degree,Government,Owned house,75.0,80.0,44.44444444444444,75.0,66.66666666666666
+9/6/2025 21:38:00,25–34,Female,Gampaha,Undergraduate degree,Government,Owned house,87.5,80.0,55.55555555555556,62.5,70.0
+9/6/2025 23:05:00,45–54,Female,Gampaha,Diploma,Government,Owned house,87.5,60.0,88.88888888888889,87.5,83.33333333333334
+9/7/2025 2:10:00,45–54,Male,Colombo,A/L or equivalent,Private,Rented house,87.5,80.0,33.33333333333333,62.5,63.33333333333333
+9/7/2025 3:34:00,45–54,Female,Gampaha,Postgraduate degree,Government,Owned house,87.5,60.0,88.88888888888889,50.0,73.33333333333333
+9/7/2025 12:14:00,25–34,Female,Kalutara,Diploma,Government,Rented house,75.0,60.0,66.66666666666666,75.0,70.0
+9/7/2025 12:16:00,25–34,Female,Colombo,A/L or equivalent,Student,Owned house,75.0,100.0,44.44444444444444,75.0,70.0
+9/7/2025 15:24:00,25–34,Male,Colombo,A/L or equivalent,Student,Owned house,62.5,60.0,33.33333333333333,12.5,40.0
+9/7/2025 20:19:00,45–54,Female,Gampaha,Postgraduate degree,Government,Owned house,100.0,80.0,44.44444444444444,50.0,66.66666666666666
+9/8/2025 11:10:00,45–54,Female,Gampaha,A/L or equivalent,Private,Owned house,87.5,100.0,55.55555555555556,100.0,83.33333333333334
+9/9/2025 19:44:00,18–24,Male,Gampaha,A/L or equivalent,Student,Owned house,62.5,100.0,22.22222222222222,37.5,50.0
+9/10/2025 13:42:00,45–54,Female,Colombo,Postgraduate degree,Government,Owned house,62.5,60.0,44.44444444444444,50.0,53.333333333333336
+9/10/2025 16:04:00,45–54,Female,Gampaha,Undergraduate degree,Private,Owned house,87.5,80.0,66.66666666666666,25.0,63.33333333333333
+9/10/2025 18:03:00,45–54,Female,Gampaha,Diploma,Private,Owned house,62.5,40.0,33.33333333333333,12.5,36.666666666666664
+9/10/2025 19:54:00,25–34,Female,Gampaha,Undergraduate degree,Student,Rented house,87.5,60.0,44.44444444444444,62.5,63.33333333333333
+9/11/2025 7:51:00,25–34,Female,Kalutara,A/L or equivalent,Private,Rented house,25.0,40.0,33.33333333333333,12.5,26.666666666666668
+9/11/2025 8:30:00,25–34,Male,Colombo,Diploma,Government,Owned house,75.0,40.0,33.33333333333333,25.0,43.333333333333336
+9/11/2025 11:14:00,45–54,Male,Colombo,Postgraduate degree,Government,Owned house,100.0,80.0,55.55555555555556,50.0,70.0
+9/11/2025 11:46:00,45–54,Female,Gampaha,A/L or equivalent,Government,Owned house,100.0,80.0,44.44444444444444,37.5,63.33333333333333
+9/11/2025 12:14:00,25–34,Male,Gampaha,A/L or equivalent,Private,Owned house,75.0,60.0,33.33333333333333,25.0,46.666666666666664
+9/11/2025 15:09:00,45–54,Female,Gampaha,Undergraduate degree,Government,Owned house,75.0,80.0,22.22222222222222,62.5,56.666666666666664
+9/11/2025 15:10:00,45–54,Female,Gampaha,Postgraduate degree,Government,Owned house,62.5,80.0,44.44444444444444,87.5,66.66666666666666
+9/11/2025 18:51:00,45–54,Female,Gampaha,Undergraduate degree,Self-employed,Rented house,62.5,80.0,33.33333333333333,25.0,46.666666666666664
+9/11/2025 19:56:00,45–54,Female,Gampaha,Secondary school,Unemployed,Owned house,62.5,80.0,55.55555555555556,87.5,70.0
+9/12/2025 12:27:00,55 and above,Female,Kalutara,Secondary school,Unemployed,Owned house,37.5,60.0,55.55555555555556,50.0,50.0
+9/13/2025 7:17:00,45–54,Female,Colombo,Postgraduate degree,Government,Rented house,62.5,60.0,44.44444444444444,25.0,46.666666666666664
+9/13/2025 16:59:00,35–44,Female,Colombo,Undergraduate degree,Private,Owned house,62.5,100.0,22.22222222222222,50.0,53.333333333333336
+10/19/2025 18:15:31,45–54,Male,Gampaha,Postgraduate degree,Private,Rented house,87.5,100.0,33.33333333333333,12.5,53.333333333333336
+10/19/2025 18:54:22,Under 18,Male,Gampaha,Undergraduate degree,Student,Rented house,25.0,80.0,33.33333333333333,62.5,46.666666666666664
+10/19/2025 19:01:13,35–44,Female,Colombo,Postgraduate degree,Private,Rented house,62.5,60.0,44.44444444444444,62.5,56.666666666666664
+10/19/2025 19:03:36,35–44,Female,Colombo,Secondary school,Unemployed,Owned house,50.0,60.0,66.66666666666666,75.0,63.33333333333333
+10/19/2025 19:10:27,18–24,Female,Colombo,Undergraduate degree,Unemployed,Owned house,50.0,40.0,77.77777777777779,37.5,53.333333333333336
+10/19/2025 19:23:34,18–24,Female,Gampaha,A/L or equivalent,Private,With Parents,25.0,60.0,44.44444444444444,75.0,50.0
+10/19/2025 19:45:20,18–24,Male,Gampaha,Diploma,Private,With Parents,62.5,100.0,77.77777777777779,75.0,76.66666666666667
+10/19/2025 20:38:41,Under 18,Female,Kalutara,A/L or equivalent,Student,With Parents,37.5,60.0,33.33333333333333,37.5,40.0
+10/19/2025 21:15:13,18–24,Female,Colombo,Postgraduate degree,Private,With Parents,50.0,40.0,55.55555555555556,37.5,46.666666666666664
+10/19/2025 21:48:07,25–34,Female,Gampaha,Postgraduate degree,Private,With Parents,100.0,80.0,88.88888888888889,87.5,90.0
+10/20/2025 9:50:36,18–24,Female,Gampaha,Diploma,Private,With Parents,87.5,60.0,66.66666666666666,62.5,70.0
+10/20/2025 10:14:33,18–24,Female,Gampaha,A/L or equivalent,Student,Owned house,50.0,80.0,66.66666666666666,75.0,66.66666666666666
+10/20/2025 10:41:11,45–54,Male,Gampaha,Diploma,Self-employed,Owned house,75.0,100.0,55.55555555555556,50.0,66.66666666666666
+10/20/2025 11:04:28,35–44,Female,Colombo,Postgraduate degree,Government,Rented house,100.0,100.0,55.55555555555556,75.0,80.0
+10/20/2025 11:04:30,18–24,Female,Colombo,Diploma,Private,Rented house,37.5,40.0,55.55555555555556,75.0,53.333333333333336
+10/20/2025 11:52:27,55 and above,Female,Colombo,A/L or equivalent,Unemployed,Rented house,100.0,100.0,44.44444444444444,62.5,73.33333333333333
+10/20/2025 14:16:45,25–34,Female,Kalutara,Diploma,Private,With Parents,75.0,60.0,55.55555555555556,62.5,63.33333333333333
+10/20/2025 14:41:45,25–34,Female,Kalutara,A/L or equivalent,Private,Owned house,75.0,40.0,66.66666666666666,87.5,70.0
+10/20/2025 14:41:48,25–34,Female,Colombo,Diploma,Private,Owned house,87.5,60.0,66.66666666666666,75.0,73.33333333333333
+10/20/2025 14:52:09,35–44,Female,Kalutara,A/L or equivalent,Private,Rented house,75.0,80.0,66.66666666666666,75.0,73.33333333333333
+10/20/2025 14:58:51,25–34,Female,Colombo,Diploma,Private,Rented house,87.5,60.0,44.44444444444444,75.0,66.66666666666666
+10/20/2025 15:07:32,25–34,Female,Kalutara,Postgraduate degree,Private,Owned house,87.5,60.0,77.77777777777779,87.5,80.0
+10/20/2025 15:11:49,25–34,Female,Kalutara,Diploma,Private,With Parents,25.0,80.0,55.55555555555556,62.5,53.333333333333336
+10/20/2025 15:12:59,18–24,Female,Kalutara,A/L or equivalent,Private,With Parents,37.5,60.0,77.77777777777779,75.0,63.33333333333333
+10/20/2025 15:14:50,35–44,Female,Kalutara,Diploma,Private,With Parents,75.0,100.0,77.77777777777779,87.5,83.33333333333334
+10/20/2025 15:19:52,45–54,Female,Kalutara,A/L or equivalent,Private,Owned house,62.5,80.0,66.66666666666666,75.0,70.0
+10/20/2025 18:44:02,25–34,Female,Kalutara,A/L or equivalent,Government,Owned house,62.5,80.0,44.44444444444444,25.0,50.0
+10/20/2025 20:15:08,35–44,Male,Colombo,Secondary school,Private,Owned house,37.5,20.0,55.55555555555556,25.0,36.666666666666664
+10/20/2025 22:49:43,55 and above,Female,Colombo,A/L or equivalent,Government,Owned house,87.5,80.0,77.77777777777779,75.0,80.0
+10/21/2025 1:05:10,25–34,Female,Gampaha,Postgraduate degree,Private,With Parents,100.0,80.0,55.55555555555556,62.5,73.33333333333333
+10/21/2025 1:16:47,25–34,Male,Gampaha,Undergraduate degree,Self-employed,Rented house,75.0,80.0,77.77777777777779,37.5,66.66666666666666
+10/21/2025 3:41:05,25–34,Male,Gampaha,Undergraduate degree,Government,Government quarters,87.5,80.0,66.66666666666666,75.0,76.66666666666667
+10/21/2025 9:59:33,18–24,Male,Gampaha,A/L or equivalent,Student,With Parents,37.5,60.0,77.77777777777779,75.0,63.33333333333333
+10/21/2025 10:07:37,18–24,Male,Colombo,A/L or equivalent,Student,With Parents,87.5,80.0,33.33333333333333,62.5,63.33333333333333
+10/21/2025 13:26:39,25–34,Female,Kalutara,A/L or equivalent,Student,Rented house,100.0,100.0,77.77777777777779,87.5,90.0
+10/21/2025 13:36:47,25–34,Female,Kalutara,Diploma,Student,Rented house,87.5,60.0,44.44444444444444,37.5,56.666666666666664
+10/21/2025 13:37:19,25–34,Female,Kalutara,Diploma,Student,With Parents,87.5,80.0,55.55555555555556,50.0,66.66666666666666
+10/21/2025 13:37:41,25–34,Female,Kalutara,Diploma,Student,Rented house,87.5,80.0,44.44444444444444,50.0,63.33333333333333
+10/21/2025 13:39:34,25–34,Female,Kalutara,Diploma,Student,Rented house,100.0,60.0,77.77777777777779,50.0,73.33333333333333
+10/21/2025 13:41:29,18–24,Female,Kalutara,Diploma,Student,Rented house,75.0,40.0,44.44444444444444,50.0,53.333333333333336
+10/21/2025 13:44:04,18–24,Female,Kalutara,Diploma,Government,Rented house,50.0,100.0,55.55555555555556,50.0,60.0
+10/21/2025 13:58:11,18–24,Female,Kalutara,Diploma,Student,Rented house,100.0,80.0,55.55555555555556,37.5,66.66666666666666
+10/21/2025 18:31:13,25–34,Male,Gampaha,Undergraduate degree,Private,Rented house,50.0,40.0,44.44444444444444,50.0,46.666666666666664
+10/21/2025 19:05:39,18–24,Female,Kalutara,A/L or equivalent,Student,With Parents,62.5,0.0,77.77777777777779,75.0,60.0
+10/21/2025 23:10:12,55 and above,Male,Gampaha,A/L or equivalent,Government,Owned house,87.5,20.0,44.44444444444444,75.0,60.0
+10/22/2025 12:21:28,25–34,Female,Kalutara,Undergraduate degree,Student,Government quarters,87.5,60.0,55.55555555555556,75.0,70.0
+10/22/2025 12:21:29,25–34,Female,Kalutara,Undergraduate degree,Student,Government quarters,87.5,60.0,55.55555555555556,75.0,70.0
+10/22/2025 12:22:39,18–24,Female,Kalutara,Undergraduate degree,Government,With Parents,100.0,100.0,66.66666666666666,75.0,83.33333333333334
+10/22/2025 12:26:35,25–34,Female,Kalutara,A/L or equivalent,Student,Government quarters,87.5,60.0,66.66666666666666,87.5,76.66666666666667
+10/22/2025 12:26:39,25–34,Female,Kalutara,Undergraduate degree,Student,Government quarters,100.0,100.0,77.77777777777779,75.0,86.66666666666667
+10/22/2025 12:32:38,25–34,Female,Kalutara,Diploma,Student,Rented house,87.5,100.0,55.55555555555556,62.5,73.33333333333333
+10/22/2025 12:33:04,25–34,Male,Kalutara,Diploma,Government,With Parents,62.5,100.0,88.88888888888889,87.5,83.33333333333334
+10/22/2025 12:33:04,25–34,Male,Kalutara,Undergraduate degree,Government,With Parents,62.5,100.0,88.88888888888889,87.5,83.33333333333334
+10/22/2025 12:51:25,25–34,Female,Kalutara,Undergraduate degree,Unemployed,Owned house,75.0,100.0,44.44444444444444,62.5,66.66666666666666
+10/22/2025 12:51:52,25–34,Female,Kalutara,Diploma,Government,Owned house,75.0,100.0,55.55555555555556,87.5,76.66666666666667
+10/22/2025 12:57:48,18–24,Female,Kalutara,Primary school,Student,Rented house,100.0,60.0,66.66666666666666,75.0,76.66666666666667
+10/22/2025 13:00:30,18–24,Female,Kalutara,Diploma,Student,Rented house,87.5,40.0,66.66666666666666,100.0,76.66666666666667
+10/22/2025 13:16:57,25–34,Female,Gampaha,Undergraduate degree,Government,Owned house,75.0,80.0,66.66666666666666,75.0,73.33333333333333
+10/22/2025 13:21:33,25–34,Male,Kalutara,Diploma,Government,Government quarters,75.0,100.0,66.66666666666666,62.5,73.33333333333333
+10/22/2025 13:21:51,25–34,Female,Kalutara,Diploma,Government,With Parents,100.0,80.0,55.55555555555556,75.0,76.66666666666667
+10/22/2025 13:21:57,18–24,Male,Kalutara,Diploma,Government,Government quarters,50.0,80.0,66.66666666666666,87.5,70.0
+10/22/2025 13:27:05,25–34,Male,Kalutara,Diploma,Government,Government quarters,75.0,40.0,44.44444444444444,50.0,53.333333333333336
+10/22/2025 22:40:49,55 and above,Female,Colombo,Diploma,Unemployed,Owned house,100.0,80.0,55.55555555555556,50.0,70.0
+10/31/2025 13:32:01,18–24,Female,Gampaha,A/L or equivalent,Private,With Parents,87.5,80.0,66.66666666666666,75.0,76.66666666666667
+10/31/2025 15:00:24,45–54,Female,Kalutara,Postgraduate degree,Government,Owned house,100.0,80.0,33.33333333333333,75.0,70.0
