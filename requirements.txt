@@ -5,3 +5,6 @@ xgboost
 scikit-learn
 plotly
 matplotlib
+seaborn
+statsmodels
+ipykernel
